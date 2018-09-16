@@ -88,4 +88,4 @@ client.on('guildMemberAdd', member => {
   channel.send(`<a:partywumpus:480837036241059841>Welcome to the server, ${member}. Make sure to read #information to get started!`);
 });
 
-client.login('NDg3MDk0MDc3MDgzMzUzMDk5.DnddhA.5RIOnCGJLHaerx1S0X6BI-9YrN4');
+client.login(process.env.'NDg3MDk0MDc3MDgzMzUzMDk5.DnddhA.5RIOnCGJLHaerx1S0X6BI-9YrN4');
